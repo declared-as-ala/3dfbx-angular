@@ -4,8 +4,8 @@
   "description": "MediaPipe Pose to BVH converter with Angular and Vite",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,html --report-unused-disable-directives --max-warnings 0"
   },
